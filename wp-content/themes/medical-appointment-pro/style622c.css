@@ -1,0 +1,78 @@
+/*
+Theme Name: Medical Appointment Pro
+Theme URI: https://www.themagnifico.net/themes/medical-appointment-wordpress-theme/
+Author: TheMagnifico52
+Author URI: https://www.themagnifico.net/
+Description:The Medical Appointment WordPress Theme is a meticulously crafted website template designed to meet the exacting demands of medical professionals, healthcare institutions, clinics, and hospitals. With its exquisite design aesthetics, meticulously structured layout, and an array of powerful features, this premium theme redefines the way medical entities establish their online presence. At first glance, the Medical Appointment theme captivates with its modern and visually alluring design elements, creating an immediate sense of trust and professionalism. The layout is intelligently organized to ensure effortless navigation, granting patients and visitors a seamless browsing experience that encourages them to delve deeper into the website’s offerings. The user-friendly layout makes your website easy to use for your visitor and its responsive design ensures a flawless presentation across an array of devices, guaranteeing accessibility and optimal user engagement. It is also cross-browser compatible that lets your website be accessed from any web browser, be it Google, Firefox, or Safari.
+Version: 0.0.1
+Requires at least: 5.0
+Tested up to: 6.2
+Requires PHP: 5.2.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: medical-appointment-pro
+Tags: one-column, right-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+
+Medical Appointment Pro WordPress Theme has been created by themagnifico(themagnifico.net), 2023.
+Medical Appointment Pro WordPress Theme is released under the terms of GNU GPL
+
+/* Basic Style */
+
+.bypostauthor {
+  font-weight: 600;
+}
+
+/*--------- Site Loader --------------*/
+
+.preloader {
+  background: #f4f9ff;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+  z-index: 99999;
+}
+.load{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:100px;
+  height:100px;
+}
+.load hr{
+  border:0;
+  margin:0;
+  width:40%;
+  height:40%;
+  position:absolute;
+  border-radius:50%;
+  animation:spin 2s ease infinite;
+}
+.load :first-child{background:#1b1b1b;animation-delay:-1.5s}
+.load :nth-child(2){background: #22c7b7;;animation-delay:-1s}
+.load :nth-child(3){background:#1b1b1b;animation-delay:-0.5s}
+.load :last-child{background: #22c7b7;}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+#sticky-onoff {
+  display: none;
+}
+.fixed-header {
+position: fixed;
+top:0;
+right:0;
+padding: 0 35px;
+width: 100%;
+background: #fff;
+box-shadow: -2px 2px 10px 0px #000;
+z-index: 999999;
+}
